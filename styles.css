@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    font-size: 36px;
+}
+
+.title {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    background-color: #f368d0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 2px solid black;
+    border-radius: 2.5%;
+
+    padding: 2.5%;
+    gap: 10px;
+
+    width: 75%;
+    height: 75%;
+    max-width: 650px;
+
+    background-color: #afa8be;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    width: 100%;
+    height: 17%;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    background-color: rgb(203, 255, 231);
+}
+
+.calc {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 75%;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+
+    padding: 2%;
+
+    background-color: #828086;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50%;
+    padding-left: 20px;
+}
+
+.numpad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: 65%;
+    height: 100%;
+    
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 24px;
+    background-color: orange;
+    opacity: 0.6;
+    transition: 0.2s;
+
+    display: inline-block;
+    text-decoration: none;
+
+    border-radius: 5%;
+
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.number {
+    width: 33.33333333333%;
+    height: 25%;
+
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.functions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 25%;
+    height: 100%;
+
+    box-sizing: border-box;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 75%;
+}
+
+.operation {
+    height: 25%;
+}
+
+.eq {
+    height: 20%;
+}
+
+.C {
+    height: 60%;
+    width: 25%;
+    margin: 15px;
+
+    opacity: 80%;
+}
